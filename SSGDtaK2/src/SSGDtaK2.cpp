@@ -4,6 +4,17 @@
 #include <Windows.h>
 using namespace std;
 
+int sort_function()
+{
+	srand (time(NULL));
+	const int n = 40;
+	int i, j, temp;
+	int array[n];
+	for(i = 1; i < n; i++)
+		{
+		}
+}
+
 int get_size(FILE *file);
 string read_tag(FILE *file, int readloc, int size);
 void read_data(FILE *file);
