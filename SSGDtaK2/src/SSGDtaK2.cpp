@@ -4,6 +4,7 @@
 #include <Windows.h>
 using namespace std;
 
+// додаткова функція, яка створює рандомний масив чисел та сортує бульбашкою
 int sort_function()
 {
 	srand (time(NULL));
@@ -23,7 +24,10 @@ int sort_function()
 				array[i] = array[j];
 				array[j] = temp;
 			}
-	
+	for(i = 0; i < n; i++)
+		cout << array[I] << " ";
+	cout << endl << endl;
+	return 0;
 }
 
 int get_size(FILE *file);
