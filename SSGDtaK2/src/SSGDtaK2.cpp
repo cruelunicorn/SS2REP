@@ -10,9 +10,20 @@ int sort_function()
 	const int n = 40;
 	int i, j, temp;
 	int array[n];
-	for(i = 1; i < n; i++)
+	for(i = 0; i < n; i++)
 		{
+			array[i] = rand() % 100 + 1;
+			cout << array[i] << " ";
 		}
+	cout << endl;
+	for(i = 0; i < n; i++)
+		for(j = i + 1; j < n; j++)
+			if(array[j] < array[i]) {
+				temp = array[i];
+				array[i] = array[j];
+				array[j] = temp;
+			}
+	
 }
 
 int get_size(FILE *file);
