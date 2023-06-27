@@ -99,7 +99,7 @@ int sort_function()
 				array[j] = temp;
 			}
 	for(i = 0; i < n; i++)
-		cout << array[I] << " ";
+		cout << array[i] << " ";
 	cout << endl << endl;
 >>>>>>> branch 'main' of https://github.com/cruelunicorn/SS2REP
 	return 0;
